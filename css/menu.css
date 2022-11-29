@@ -1,0 +1,72 @@
+*{
+	margin:0;
+	padding: 0;
+	border: 0;
+}
+
+nav{
+	position: fixed;
+}
+.doar{
+	top: 10px;
+	position: relative;
+	border-radius: 25px;
+	left: 60%;
+	background: #feb92e;
+	color: #fff;
+	padding: 8px 25px 10px;
+	display: inline;
+	
+}
+
+.doar:hover{
+	text-decoration: none;
+	background: #74ac71;
+	
+}
+
+.doartext{
+	color: #fff;
+	font-size: 15px;
+	text-decoration: none;
+	position: relative;
+	top: 1px;
+	font-family: times roman;
+
+}
+
+.doartext:hover{
+	//color: #fffde;
+	//font-weight: bold;
+}
+
+@media (min-width: 989px)
+{
+	.doar{
+		top: 10px;
+		position: relative;
+		border-radius: 25px;
+		left: 60%;
+		background: black;
+		color: #fff;
+		padding: 8px 25px 10px;
+		display: inline;
+		
+	}
+
+	.doar:hover{
+		text-decoration: none;
+		background: #74ac71;
+		
+	}
+
+	.doartext{
+		color: #fff;
+		font-size: 15px;
+		text-decoration: none;
+		position: relative;
+		top: 1px;
+		font-family: times roman;
+
+	}
+}
